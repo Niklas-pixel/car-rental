@@ -5,7 +5,7 @@ type ButtonProps = {
 export const Button = ({innerText}: ButtonProps ) => {
   return (
     <>
-    <button className="bg-blue-300 hover:bg-blue-500 p-6 text-green-500 border-solid border-cyan-300 border-1 " >{innerText}</button>
+    <button className="bg-red-700 hover:bg-red-500 p-2 text-white px-6 " >{innerText}</button>
     </>
     
   )
