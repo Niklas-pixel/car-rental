@@ -1,12 +1,12 @@
 import { AiOutlineCar } from 'react-icons/ai';
 import Link from 'next/link';
 import { Logo } from './Logo';
-import { Button } from './Button';
+import { LinkButton } from './LinkButton';
  
 export const Navbar = ( ) => {
   return (
     <>
-     <nav className="flex items-center justify-between flex-wrap bg-green-800 py-2 px-10">
+     <nav className=" flex items-center justify-between flex-wrap bg-transparent py-2 px-20 ">
         <Logo image={AiOutlineCar} title="car" subtitle="rental"/>
         <ul className='flex space-x-8'>
             <li><Link href="/">Home</Link></li>
@@ -19,7 +19,7 @@ export const Navbar = ( ) => {
         </ul>
         <div className='flex items-center space-x-4'>
                 <p>Sign in</p>
-                <Button innerText='Register'/>
+                <LinkButton path="/" py={2} px={6} bgColor="bg-red-700" hBgColor='bg-red-500' innerText='Register'/>
             </div>
      </nav>
     </>
