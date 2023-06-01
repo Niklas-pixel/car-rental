@@ -15,7 +15,7 @@ type ButtonProps = {
 export const LinkButton = ({path, px, py, innerText, bgColor, hBgColor, icon: Icon }: ButtonProps ) => {
   return (
       <Link className="inline-block" href={`${path}`}>
-         <button   className={` ${bgColor} hover:${hBgColor} py-${py} px-${px} text-white ${bgColor === "bg-red-700" && `shadow-lg shadow-red-500/50`}`}>
+         <button   className={`hover:${hBgColor} ${bgColor} py-${py} px-${px} text-white ${bgColor === "bg-red-700" && `shadow-lg shadow-red-500/50`} `}>
          {innerText} {Icon && <Icon className="inline-block" />}
         </button></Link>
     

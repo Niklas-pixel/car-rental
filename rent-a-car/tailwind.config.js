@@ -3,11 +3,11 @@ module.exports = { mode: 'jit',
 // These paths are just examples, customize them to match your project structure
 purge: [
   './public/**/*.html',
-  './src/**/*.{js,jsx,ts,tsx,vue}',
+  './src/**/*.{js,jsx,ts,tsx}',
 ],
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/components/**/*.{js,ts,jsx,tsx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
@@ -21,3 +21,4 @@ purge: [
   },
   plugins: [],
 }
+

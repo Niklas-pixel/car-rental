@@ -18,8 +18,8 @@ export const Navbar = ( ) => {
           
         </ul>
         <div className='flex items-center space-x-4'>
-                <p>Sign in</p>
-                <LinkButton path="/" py={2} px={6} bgColor="bg-red-700" hBgColor='bg-red-500' innerText='Register'/>
+                <p >Sign in</p>
+                <LinkButton py={2} px={6} path="/"  bgColor="bg-red-700" hBgColor='bg-red-500' innerText='Register' />
             </div>
      </nav>
     </>
