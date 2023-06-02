@@ -19,7 +19,7 @@ export const Navbar = ( ) => {
         </ul>
         <div className='flex items-center space-x-4'>
                 <p >Sign in</p>
-                <LinkButton btnSize='sm' path="/"  bgColor="bg-red-700" hBgColor='bg-red-500' innerText='Register' />
+                <LinkButton btnSize='sm' path="/"  bgColor="bg-red-700" hBgColor='hover:bg-red-500' innerText='Register' />
             </div>
      </nav>
     </>

@@ -23,8 +23,8 @@ export const Offer = (props: OfferProps ) => {
       </div>
        <br />
       <div className=" flex   ">
-      <LinkButton margin path="/" icon={BsFillPatchCheckFill} bgColor="bg-red-700" hBgColor="bg-red-500" btnSize="md" innerText="Book Ride" />
-      < LinkButton path="/" icon={BiRightArrowCircle}  bgColor="bg-black" hBgColor="bg-gray-500" btnSize="md" innerText="Learn More" />
+      <LinkButton margin path="/" icon={BsFillPatchCheckFill} bgColor="bg-red-700" hBgColor="hover:bg-red-500" btnSize="md" innerText="Book Ride" />
+      < LinkButton path="/" icon={BiRightArrowCircle}  bgColor="bg-black" hBgColor="hover:bg-gray-500" btnSize="md" innerText="Learn More" />
 
       </div>
      
